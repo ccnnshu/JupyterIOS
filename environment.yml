@@ -1,7 +1,8 @@
+name: binder-environment
+channels:
+  - damianavila82
+  - conda-forge
 dependencies:
-  - python=3
-  - pip:
-    - ipykernel
-    - numpy
-    - matplotlib
-    - pandas
+  - matplotlib
+  - pandas
+  - rise
